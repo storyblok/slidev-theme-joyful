@@ -13,7 +13,10 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "release": "release-it",
+    "screenshot": "slidev export example.md --format png",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@slidev/types": "^52.1.0"
