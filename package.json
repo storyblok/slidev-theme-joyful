@@ -19,14 +19,14 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@slidev/types": "^52.1.0"
+    "@slidev/types": "^52.1.0",
+    "vite-svg-loader": "^5.1.0"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
     "@slidev/cli": "^52.1.0",
     "@storyblok/eslint-config": "^0.4.1",
-    "release-it": "^19.0.4",
-    "vite-svg-loader": "^5.1.0"
+    "release-it": "^19.0.4"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",
   "slidev": {
